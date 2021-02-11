@@ -19,16 +19,18 @@ class CardGame:
 
   def check_for_ace(self, card):
     if card.value = 1:
+      # should be == 1:
       return True
     else
     # else should be followed by a colon :
       return False
    
 
-  dif highest_card(self, card1 card2):
-  # dif instead of def
+  dif highest_card(self, card1 card2): 
+  # dif instead of def, and no comma after card1
   if card1.value > card2.value:
     return card
+    # should return card1
   else:
     return card2
   
@@ -36,9 +38,9 @@ class CardGame:
 
 def cards_total(self, cards):
   total
-  # total should have a counter set against it, eg. total = 0
+  # total should have a counter set against it, eg total = 0
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  
+  #the indentation is wrong on the whole function, as well as on just the return statement
 ```
